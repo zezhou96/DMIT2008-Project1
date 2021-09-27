@@ -1,0 +1,19 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "simple vanilla js project",
+  "default": "src/index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zezhou96/DMIT2008-Project1.git"
+  },
+  "author": "Ze Zhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zezhou96/DMIT2008-Project1/issues"
+  },
+  "homepage": "https://github.com/zezhou96/DMIT2008-Project1#readme"
+}
