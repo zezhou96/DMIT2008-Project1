@@ -4,7 +4,9 @@
   "description": "simple vanilla js project",
   "default": "src/index.js",
   "scripts": {
-    "test": "none"
+    "test": "none",
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/zezhou96/DMIT2008-Project1/issues"
   },
-  "homepage": "https://github.com/zezhou96/DMIT2008-Project1#readme"
+  "homepage": "https://github.com/zezhou96/DMIT2008-Project1#readme",
+  "devDependencies": {
+    "http-server": "^13.0.2",
+    "parcel": "^2.0.0-rc.0",
+    "sass": "^1.42.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2"
+  }
 }
